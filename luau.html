@@ -147,21 +147,73 @@
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="special" /></li>
-									</ul>
-								</form>
+
+																<!-- start -->
+
+								<form name="contactform" method="post" action="send_form_email.php">
+ 
+									
+									 
+									  <label for="first_name">First Name *</label>
+										 
+									
+									 
+									  <input  type="text" name="first_name" maxlength="50" size="30">
+										 
+									
+									
+									 
+									  <label for="last_name">Last Name *</label>
+									 
+									
+									 
+									  <input  type="text" name="last_name" maxlength="50" size="30">
+									 
+									
+									 
+									  <label for="email">Email Address *</label>
+									 
+									 
+									  <input  type="text" name="email" maxlength="80" size="30">
+									 
+									
+									 
+									  <label for="telephone">Telephone Number</label>
+									 
+									
+									  <input  type="text" name="telephone" maxlength="30" size="30">
+									 
+									
+									 
+									  <label for="comments">Comments *</label>
+									 
+									
+									  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+									 
+									
+									 
+									  <input type="submit" onclick="myFunction()" value="Submit"> 
+									  <script>
+										function myFunction() {
+								  		  alert("Thanks for leaving a message");
+										}
+								    </script>
+									
+									 
+									</form>
+
+								            
+
+								            
+
+
+
+										<!-- end -->
 							</section>
+
+			
+
+
 							<section>
 								<h2>DIAMOND HEAD LUAU </br> 2777 KALAKAUA AVE, HONOLULU, HI 96815</br><h3>(808)589-5006</h3></h2>
 								<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAKSe3sx4ZtBhlj0VHjzKPWG8emeJnnRHk'></script><div style='overflow:hidden;height:350px;width:350px;'><div id='gmap_canvas' style='height:350px;width:350px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.org/'>google map widget for website</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=46daa75f11827d439133b0b78249642345731c9e'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(21.2658224,-157.82182520000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(21.2658224,-157.82182520000003)});google.maps.event.addListener(marker, 'click');}google.maps.event.addDomListener(window, 'load', init_map);</script>
